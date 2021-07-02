@@ -1,0 +1,184 @@
+/*整体*/
+body{
+    background-color:lightsteelblue;
+    margin: 0;
+    color:#fff;
+  
+}
+
+
+
+/*导航区*/
+#navigation/*div*/
+{
+    height: 41px;
+    width: 100%;
+    
+  
+}
+.navigation1{  /*ul*/
+    list-style: none;
+    width: 1000px;
+    height: 41px;
+
+    margin: 0px auto 0px auto;
+     padding: 0;
+     
+}
+.navigation2{     /*li*/
+    cursor: pointer;
+    padding: 0 25px;
+    height: 41px;
+    line-height: 41px;
+    margin: 0;
+    float: right;
+    position: relative;
+    vertical-align: bottom;
+}
+
+a.item-name:visited{
+
+    font-size: 16px;
+    font-weight: normal;
+    color: #fff;
+    font-family: "Microsoft Yahei";
+    display: block;
+    text-align: center;
+    position: relative;
+    z-index: 100;
+    text-decoration: none;
+}
+.navigation2:hover{
+    background-color:darkblue;
+
+}
+a.item-name:link{
+    font-size: 16px;
+    font-weight: normal;
+    color: #fff;
+    font-family: "Microsoft Yahei";
+    display: block;
+    text-align: center;
+    position: relative;
+    z-index: 100;
+    text-decoration: none;
+}
+
+/*主体*/
+.pic1{
+    width: 1300px; 
+     
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#container{
+   
+       width: 1500px; 
+     
+  margin-left: auto;
+  margin-right: auto;
+  
+  margin-bottom: 0;
+  
+  color: #fff;
+  font-size: 20px;
+  padding: 5px 10px;
+  }
+.poem{
+    text-align: center;
+    margin-bottom:0px; 
+}
+.pan{
+    font-size: 17px;
+    
+}
+#book{
+    width: 1000px; 
+     
+    margin-left: auto;
+    margin-right: auto;
+    
+    margin-bottom: 0;
+    
+    color: #fff;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+div.a {
+    background-image: url(../images/book1.jpg)  ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+    width: 450px;
+    height: 600px;
+    margin: 10px 10px;
+float: left;
+    }
+ div.a:hover {
+    background-image: url(../images/book11.jpg)  ;
+    width: 450px;
+    height: 600px;
+    }
+ div.b {
+        background-image: url(../images/book2.jpg)  ;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 450px;
+        height: 600px;
+        margin: 10px 10px;
+       float: left;
+        }
+div.b:hover {
+        background-image: url(../images/book12.jpg);
+        width: 500px;
+        height: 600px;
+        margin: 10px 0px;
+        }
+div.c { 
+    background-image: url(../images/book3.jpg);
+    background-repeat: no-repeat;
+   
+    background-size: cover;
+    width: 450px;
+    height: 600px;
+    margin: 10px 10px;
+   float: left;
+}
+div.c:hover {
+            background-image: url(../images/book31.jpg);
+            width: 490px;
+            height: 600px;
+            margin: 10px 10px;
+            background-repeat: no-repeat;
+            background-position: center;
+            
+            }
+  div.d { 
+                background-image: url(../images/book4.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                width: 450px;
+                height: 600px;
+                margin: 10px 10px;
+               float: left;
+            }
+  div.d:hover {
+                        background-image: url(../images/book41.jpg);
+                        }
+
+/*页脚区*/
+#footer{
+    float: left;
+    width: 100%;
+    
+    }
+    .foot{
+        text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 12px;
+    padding-top: 20px;
+    }

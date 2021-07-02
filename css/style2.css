@@ -1,0 +1,137 @@
+/*整体*/
+body{
+    background-color:lightsteelblue;
+    margin: 0;
+    color:#fff;
+  
+}
+
+/*头像*/
+.picture{
+    width: 1000px;
+    margin: 0px auto 0px auto;
+}
+.pic{
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+h2{
+float: left;
+margin: 50px 0 20px 20px;
+}
+span{
+    font-size: 18px;
+}
+
+
+/*导航区*/
+#navigation/*div*/
+{
+    height: 41px;
+    width: 100%;
+    
+  
+}
+.navigation1{  /*ul*/
+    list-style: none;
+    width: 1000px;
+    height: 41px;
+
+    margin: 0px auto 0px auto;
+     padding: 0;
+     
+}
+.navigation2{     /*li*/
+    cursor: pointer;
+    padding: 0 25px;
+    height: 41px;
+    line-height: 41px;
+    margin: 0;
+    float: right;
+    position: relative;
+    vertical-align: bottom;
+}
+
+a.item-name:visited{
+
+    font-size: 16px;
+    font-weight: normal;
+    color: #fff;
+    font-family: "Microsoft Yahei";
+    display: block;
+    text-align: center;
+    position: relative;
+    z-index: 100;
+    text-decoration: none;
+}
+.navigation2:hover{
+    background-color:darkblue;
+
+}
+a.item-name:link{
+    font-size: 16px;
+    font-weight: normal;
+    color: #fff;
+    font-family: "Microsoft Yahei";
+    display: block;
+    text-align: center;
+    position: relative;
+    z-index: 100;
+    text-decoration: none;
+}
+/*个人信息*/
+#container{
+  margin-top: 170px;
+     width: 1000px; 
+   
+margin-left: auto;
+margin-right: auto;
+
+margin-bottom: 0;
+background-color: white;
+color: #000;
+}
+
+/*标题*/
+
+.word{
+
+   font-size: 18px;
+   font-weight: bold;
+   color: lightsteelblue;
+   float: right;
+   margin: 10px 10px;
+}
+.up{
+   width: 1000px;
+   height: 40px;
+   border-bottom: 3px solid lightsteelblue;
+}
+/*表格*/
+table{
+    border:lightsteelblue  ;
+   
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 0;
+   width: 100%;
+}
+tr{
+    height: 60px;
+    text-align: center;
+    
+}
+/*页脚区*/
+#footer{
+    float: left;
+    width: 100%;
+    
+    }
+    .foot{
+        text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 12px;
+    padding-top: 20px;
+    }
